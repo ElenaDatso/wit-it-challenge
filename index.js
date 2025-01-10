@@ -83,7 +83,7 @@ console.log(objSorter(cities));
 const printer = (rows, cols) => {
 
   for (let i = 0; i < rows; i++) {
-    console.log(new Array(cols).fill('*').join('...'));
+    console.log(new Array(cols).fill('*').join('   '));
   }
 }
 
